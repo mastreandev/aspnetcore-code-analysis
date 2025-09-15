@@ -1,0 +1,9 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Ensure C# and related files use LF
+*.cs      text eol=lf diff=csharp
+*.csproj  text eol=lf
+*.sln     text eol=lf merge=union
+*.props   text eol=lf
+*.targets text eol=lf
