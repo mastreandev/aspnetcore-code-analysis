@@ -1,0 +1,47 @@
+<Project>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Code analysis -->
+
+    <!--
+      Known issue with .NET 8.0 SDK affects the values of the AnalysisLevel
+      and AnalysisLevelStyle properties.
+
+      https://github.com/dotnet/roslyn/issues/63036
+    -->
+
+    <!-- Code quality -->
+    <!--
+      Code quality configuration files are updated with every SDK and can be
+      found here:
+
+      %ProgramFiles%/dotnet/sdk/[version]/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_[level]_recommended.globalconfig
+    -->
+    <AnalysisLevel>latest-all</AnalysisLevel>
+
+    <!-- Code style -->
+    <!--
+      Code style configuration files are updated with every SDK and can be
+      found here:
+
+      %ProgramFiles%/dotnet/sdk/[version]/Sdks/Microsoft.NET.Sdk/codestyle/cs/build/config/analysislevelstyle_all.globalconfig
+    -->
+    <AnalysisLevelStyle>all</AnalysisLevelStyle>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!--
+      Known issue: XML documentation required for certain code style analyzers
+      (IDE0005).
+
+      https://github.com/dotnet/roslyn/issues/41640
+    -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>
