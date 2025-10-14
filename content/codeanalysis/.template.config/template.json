@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Anthony Mastrean",
+    "classifications": [ "Analsis", "Style", "Configuration" ],
+    "identity": "MastreanDev.CodeAnalysis",
+    "name": "Code analysis rules and configuration for highly regulated and security-sensitive industries",
+    "shortName": "codeanalysis",
+    "tags": {
+      "language": "C#",
+      "type": "item"
+    }
+  }
