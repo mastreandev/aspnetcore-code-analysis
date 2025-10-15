@@ -24,6 +24,9 @@ insert_final_newline = false
 #### .NET Coding Conventions ####
 [*.{cs,vb}]
 
+# IDE0001: Simplify name
+dotnet_diagnostic.IDE0001.severity = warning
+
 # Organize usings
 dotnet_separate_import_directive_groups = true
 dotnet_sort_system_directives_first = true
