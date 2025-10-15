@@ -27,6 +27,9 @@ insert_final_newline = false
 # IDE0001: Simplify name
 dotnet_diagnostic.IDE0001.severity = warning
 
+# IDE0002: Simplify member access
+dotnet_diagnostic.IDE0002.severity = warning
+
 # Organize usings
 dotnet_separate_import_directive_groups = true
 dotnet_sort_system_directives_first = true
