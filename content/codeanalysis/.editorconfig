@@ -33,6 +33,9 @@ dotnet_diagnostic.IDE0002.severity = warning
 # IDE0009: Add this or Me qualification
 dotnet_diagnostic.IDE0009.severity = warning
 
+# IDE0035: Remove unreachable code
+dotnet_diagnostic.IDE0035.severity = warning
+
 # Organize usings
 dotnet_separate_import_directive_groups = true
 dotnet_sort_system_directives_first = true
