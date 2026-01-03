@@ -42,6 +42,9 @@ dotnet_diagnostic.IDE0049.severity = warning
 # IDE0079: Remove unnecessary suppression
 dotnet_diagnostic.IDE0079.severity = warning
 
+# IDE0121: Simplify LINQ type check and cast
+dotnet_diagnostic.IDE0121.severity = warning
+
 # Organize usings
 dotnet_separate_import_directive_groups = true
 dotnet_sort_system_directives_first = true
