@@ -139,7 +139,7 @@ csharp_style_unused_value_expression_statement_preference = discard_variable:sil
 csharp_style_prefer_local_over_anonymous_function = true:warning
 
 # 'using' directive preferences
-csharp_using_directive_placement = outside_namespace:silent
+csharp_using_directive_placement = outside_namespace:warning
 
 #### C# Formatting Rules ####
 
