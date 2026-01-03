@@ -39,6 +39,9 @@ dotnet_diagnostic.IDE0035.severity = warning
 # IDE0049: Use language keywords instead of framework type names for type references
 dotnet_diagnostic.IDE0049.severity = warning
 
+# IDE0079: Remove unnecessary suppression
+dotnet_diagnostic.IDE0079.severity = warning
+
 # Organize usings
 dotnet_separate_import_directive_groups = true
 dotnet_sort_system_directives_first = true
